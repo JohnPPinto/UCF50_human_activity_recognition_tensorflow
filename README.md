@@ -6,7 +6,7 @@ In this project, I have used two baseline models approach: ConvLSTM and LRCN to 
 
 For more details and for the complete workflow on the project you can check my [notebook](https://github.com/JohnPPinto/UCF50_human_activity_recognition_tensorflow/blob/main/UCF50_human_activity_recognition_tensorflow.ipynb).
 
-If you are interested in training the model and predicting any videos. You can use the module files in the module directory.
+If you are interested in training the model and predicting any videos. You can use the python script files in the module directory.
 
 Use train.py for training the dataset and predict.py for predicting the target video.
 

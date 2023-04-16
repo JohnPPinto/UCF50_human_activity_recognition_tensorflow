@@ -1,0 +1,8 @@
+!python module/predict.py --seq_len 20 --frame_size 128 --video_path data/UCF50/GolfSwing/v_GolfSwing_g01_c01.avi --model_path saved_model/LRCN/lrcn_exp/2023-04-16-07:10:51 --class_list Biking Diving GolfSwing Punch Rowing
+
+[INFO] Predicting video file: "data/UCF50/GolfSwing/v_GolfSwing_g01_c01.avi" using model: "saved_model/LRCN/lrcn_exp/2023-04-16-07:10:51".
+[INFO] Model is been loaded and ready for prediction.
+[INFO] Video file is ready for prediction.
+1/1 [==============================] - 3s 3s/step
+[INFO] Action predicted by the model : GolfSwing
+[INFO] Prediction probalities: 0.99
